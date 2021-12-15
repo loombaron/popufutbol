@@ -21,7 +21,7 @@
 }
 
 body {
-  font-family: "Staatliches", cursive;
+  font-family: "Montserrat", sans-serif;
   line-height: 1.5;
   background: var(--light-color);
 }
@@ -301,5 +301,9 @@ h6 {
 }
 
 #main-footer .footer-container input[type="submit"] {
-  width: 90%;
+  width: 100%;
+}
+
+#main-footer .footer-container input[type="email"] {
+  width: 100%;
 }
