@@ -27,6 +27,11 @@
   grid-column: 1;
 }
 
+.img_container {
+  grid-template-columns: 1fr;
+  grid-column: 1;
+}
+
 @media (max-width: 600px) {
   /* Stack Grid Items */
   #showcase .showcase-container,
@@ -48,6 +53,16 @@
   .page-container {
     grid-template-columns: 1fr;
     text-align: center;
+  }
+
+  .img_container {
+    grid-template-columns: 1fr;
+    grid-column: 1;
+  }
+
+  .map {
+    width: 10px;
+    height: 10px;
   }
 
   .page-container > *:first-child {

@@ -340,3 +340,15 @@ h6 {
 #main-footer .footer-container input[type="submit"] {
   width: 90%;
 }
+
+/* Article 1 */
+.img_container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 1rem;
+  padding: 1rem;
+}
+
+.map {
+  padding: 1rem;
+}
